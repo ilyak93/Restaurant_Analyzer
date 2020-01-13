@@ -1,0 +1,188 @@
+/*Theme the Tabulator element*/
+
+
+body {
+background-image: url("food.jpeg");  
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#download-csv{
+	border-radius: 30px;
+	margin:auto;
+	
+}
+
+#inputblock{
+	font-weight: bold;
+	margin:auto;
+	margin-top: 20%;
+	width:1200px;
+	height:200px;
+	border: 3px solid green;
+	text-align:center;
+	color:green;
+	font-size: 20px;
+	padding:10px;
+	background-color:white;
+}
+#input{
+	display:inline;
+	size:2px;
+	
+}
+
+p{
+	font-size: 20px;
+	text-align:center;
+	color:white;
+	color:darkblue;
+	font-weight: bolder;
+	margin:auto;
+	margin-top:70px;
+	
+	background-color:rgba(255,255,255,0.6);
+	width:50%;
+}
+
+#table{
+	text-align:center;
+}
+#everything{
+	display:none;
+}
+#example-table{
+    background-color:#ccc;
+    border: 1px solid #333;
+    border-radius: 10px;
+	
+	
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+
+
+/*Theme the header*/
+#example-table .tabulator-header {
+    background-color:#333;
+    color:#ff;
+}
+
+/*Allow column header names to wrap lines*/
+#example-table .tabulator-header .tabulator-col,
+#example-table .tabulator-header .tabulator-col-row-handle {
+    white-space: normal;
+}
+
+/*Color the table rows*/
+#example-table .tabulator-tableHolder .tabulator-table .tabulator-row{
+    color:#fff;
+    background-color: #666;
+	height: 30px;
+}
+
+/*Color even rows*/
+    #example-table .tabulator-tableHolder .tabulator-table .tabulator-row:nth-child(even) {
+    background-color: #444;
+}
+
+#piechartdiv {
+    width: 100%;
+    height: 100%;
+	opacity: 1.0;
+}
+
+#stackedchartdiv {
+    width: 100%;
+    height: 100%;
+	min-height: 1000px;
+}
+
+#advanced1chartdiv {
+  width: 100%;
+    height: 90%;
+	min-width: 300px;
+	min-height: 300px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+#advanced2chartdiv {
+  width: 90%;
+    height: 90%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 15px;
+	margin-left: 10px;
+}
+
+#stackedbarontainer{
+	
+}
+
+#colomnchartdiv {
+	
+	width: 100%;
+    height: 90%;
+	min-width: 1000px;
+	opacity: 1.0;
+}
+
+
+
+
+
+.chart {
+	display: block;
+	width: 100%;
+	height: 500px;
+	overflow:auto;	
+	resize: both;
+	background-image: linear-gradient(to right, rgba(120,110,130,0.8) , rgba(90,150,206,0.8));
+	
+	margin-right: 15px;
+	margin-left: 10px;
+	
+	margin-bottom: 100px;
+	}
+	
+
+#mapid {
+    height: 90%;
+    width: 100%;
+	
+}
+#map{
+	display: block;
+	width: 90%;
+	height: 600px;
+	margin:auto;
+	margin-bottom:100px;
+	
+}
+
+
+#search{
+	display:inline-block;
+	height: 55px;
+	width: 80%;	
+}
+
+
+#search_input{
+	display:inline-block;
+	size:80;
+	width:50%;
+}
+
+
+#search_button{
+	display:inline-block;
+	height: 50px;
+	width: 50px;
+	border-radius: 2px;
+}
